@@ -14,8 +14,6 @@ def selection_page():
 
 # Página de exibição de flashcards
 def flashcards_page():
-    st.title('Flashcards ENAM - Flashcards')
-    st.write('\n')
     data = st.session_state.data
     assunto = st.session_state.assunto
 
